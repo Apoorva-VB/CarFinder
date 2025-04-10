@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #f9fafb;
+  color: #111827;
+}
+.main-content {
+  margin-top: -620px;
+  margin-left: 470px;
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  padding: 2rem;
+}
+
+.list-section {
+  flex: 1;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  height: 100%;
+  overflow-x: hidden;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.filter-section {
+  padding: 1rem;
+  background-color: #f8f9fa;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+  padding: 1rem;
+}
+
+.list-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.loading {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.pagination-info {
+  text-align: center;
+  margin: 1rem 0;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.pagination {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 1rem; /* optional spacing */
+}
+
+.page-btn {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  min-width: 40px;
+  text-align: center;
+}
+
+.page-btn:hover:not(:disabled) {
+  background-color: #f0f0f0;
+}
+
+.page-btn.active {
+  background-color: #7f56d9;
+  color: white;
+  border-color: #7f56d9;
+}
+
+.page-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.page-dots {
+  padding: 0.5rem;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .main-content {
+    flex-direction: column;
+  }
+
+  .filter-section {
+    order: -1;
+  }
+
+  .pagination {
+    gap: 0.25rem;
+  }
+
+  .page-btn {
+    padding: 0.25rem 0.5rem;
+    min-width: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .main-content {
+    flex-direction: column;
+    margin-top: 0;
+    margin-left: 0;
+    padding: 1rem;
+  }
+
+  .filter-section {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .pagination {
+    justify-content: center;
+    gap: 6px;
+  }
+
+  .page-btn {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.8rem;
+  }
+
+  .app-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 1rem;
+  }
+
+  .wishlist-link {
+    width: 100%;
+    text-align: center;
+  }
+}
+.sort-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: -17px;
+}
+
+.sort-select {
+  padding: 0.4rem 0.6rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 0.9rem;
+}

@@ -1,0 +1,83 @@
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0; /* ✅ This pins it to the top */
+  z-index: 1000; /* ✅ Make sure it stays above all other elements */
+  padding: 1rem 2rem;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #7f56d9;
+  text-decoration: none;
+}
+
+.wishlist-link {
+  padding: 0.5rem 1rem;
+  background-color: #7f56d9;
+  color: white;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.wishlist-link:hover {
+  background-color: #6e46c7;
+}
+/* Default (light) theme */
+body {
+  background-color: #f9fafb;
+  color: #111827;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark theme overrides */
+body.dark {
+  background-color: #111827;
+  color: #f1f5f9;
+}
+
+body.dark .car-card {
+  background-color: #1e293b;
+  border-color: #334155;
+}
+
+body.dark .filter-popup,
+body.dark .car-filter-wrapper-horizontal,
+body.dark .pagination,
+body.dark .filter-section {
+  background-color: #1e293b;
+  color: #f1f5f9;
+}
+
+body.dark .page-btn {
+  background-color: #334155;
+  color: #e2e8f0;
+  border-color: #475569;
+}
+
+body.dark .page-btn.active {
+  background-color: #7f56d9;
+  color: white;
+}
+
+/* Theme button style */
+.theme-toggle {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+/* Grouping right side of header */
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}

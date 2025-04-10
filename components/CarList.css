@@ -1,0 +1,101 @@
+.car-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 40px;
+  padding: 1rem;
+  width: 800px;
+  max-width: unset;
+  /* margin: 0 auto; */
+  box-sizing: border-box;
+  position: relative;
+  bottom: 35px;
+}
+
+.car-card {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease-in-out;
+  width: 100%;
+  min-width: 0;
+}
+
+.car-card:hover {
+  transform: scale(1.02);
+}
+
+.car-img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.car-card h3 {
+  font-size: 1.125rem;
+  margin: 0.5rem 0;
+  color: #111827;
+}
+
+.car-card p {
+  margin: 0.25rem 0;
+  font-size: 0.875rem;
+  color: #4b5563;
+}
+
+/* Buttons */
+.button-group {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.button-group button {
+  flex: 1;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  border: none;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.wishlist-btn {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.wishlist-btn:hover {
+  background-color: #e0e0e0;
+}
+
+.details-btn {
+  background-color: #7f56d9;
+  color: white;
+}
+
+.details-btn:hover {
+  background-color: #6e46c7;
+}
+@media (max-width: 768px) {
+  .car-list {
+    grid-template-columns: 1fr;
+    width: 100%;
+    bottom: 0;
+  }
+
+  .button-group {
+    flex-direction: column;
+  }
+
+  .car-card {
+    padding: 1rem;
+  }
+
+  .car-img {
+    height: auto;
+  }
+}

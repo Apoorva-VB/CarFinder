@@ -1,0 +1,109 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "name": "Hyundai i20",
+      "brand": "Hyundai",
+      "price": 800000,
+      "fuel": "Petrol",
+      "seating": 5,
+      "image": "/pexels-hyundaimotorgroup-15116059.jpg",
+      "engine": "1.2L Kappa",
+      "transmission": "Manual",
+      "mileage": "18.6 kmpl"
+    },
+    {
+      "id": 2,
+      "name": "Tata Nexon",
+      "brand": "Tata",
+      "price": 950000,
+      "fuel": "Diesel",
+      "seating": 6,
+      "image": "/pexels-hyundaimotorgroup-15116059.jpg",
+      "engine": "1.2L Kappa",
+      "transmission": "Manual",
+      "mileage": "18.6 kmpl"
+    },
+    {
+      "id": 3,
+      "name": "Tata ",
+      "brand": "Tata",
+      "price": 950000,
+      "fuel": "Diesel",
+      "seating": 5,
+      "image": "/pexels-hyundaimotorgroup-15116059.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Hyundai i20",
+      "brand": "Hyundai",
+      "price": 800000,
+      "fuel": "Petrol",
+      "seating": 5,
+      "image": "/pexels-hyundaimotorgroup-15116059.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Tata Nexon",
+      "brand": "Tata",
+      "price": 950000,
+      "fuel": "Diesel",
+      "seating": 5,
+      "image": "/pexels-hyundaimotorgroup-15116059.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Hyundai i20",
+      "brand": "Hyundai",
+      "price": 800000,
+      "fuel": "Petrol",
+      "seating": 5,
+      "image": "/pexels-hyundaimotorgroup-15116059.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Tata Nexon",
+      "brand": "Tata",
+      "price": 950000,
+      "fuel": "Diesel",
+      "seating": 5,
+      "image": "/pexels-hyundaimotorgroup-15116059.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Tata Nexon",
+      "brand": "Tata",
+      "price": 950000,
+      "fuel": "Diesel",
+      "seating": 5,
+      "image": "/pexels-hyundaimotorgroup-15116059.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Tata Nexon",
+      "brand": "Tata",
+      "price": 950000,
+      "fuel": "Diesel",
+      "seating": 5,
+      "image": "/pexels-hyundaimotorgroup-15116059.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Tata Nexon",
+      "brand": "Tata",
+      "price": 950000,
+      "fuel": "Diesel",
+      "seating": 5,
+      "image": "/pexels-hyundaimotorgroup-15116059.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Tata Nexon",
+      "brand": "Tata",
+      "price": 950000,
+      "fuel": "Diesel",
+      "seating": 5,
+      "image": "/pexels-hyundaimotorgroup-15116059.jpg"
+    }
+  ]
+}
